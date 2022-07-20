@@ -1,0 +1,34 @@
+{
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "icons": {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png" 
+   },
+   
+   "content_scripts": [ {
+      "js": [ "lib/js/jquery.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   }],
+      
+   "description": "Download this to get started on your Syntropy journey!",
+   "manifest_version": 3,
+   "name": "Syntropy",
+   "permissions": [ 
+      "tabs",
+      "activeTab",
+      "webRequest",
+      "storage",
+      "topSites",
+      "cookies",
+      "system.memory"
+   ],
+   "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+   ],
+   "version": "1.0"
+}

@@ -1,0 +1,27 @@
+body.home{
+	width: 150px;
+	height: 50px;
+	
+}
+
+div.options{
+	background-color: #909090;
+	color: black;
+}
+
+div.header{
+	/*background-color: gray;*/
+	color: black;
+}
+
+.gray:hover {
+    background-color: #E8E8E8 !important;
+}
+
+.margin_top_5{
+	margin-top: 5%;
+}
+
+tr.border_bottom td {
+  border-bottom:1pt solid black;
+}
